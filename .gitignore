@@ -2,4 +2,4 @@ vendor/*
 hostpath-provisioner
 /.idea
 /*.iml
-
+*.swp
