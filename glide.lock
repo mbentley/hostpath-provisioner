@@ -1,5 +1,5 @@
 hash: b67aa175bcd170ab90fc3eb7706565e054acfd138bab84c2f324b7b397f97202
-updated: 2020-12-05T16:33:40.665671Z
+updated: 2020-12-05T17:12:40.462941Z
 imports:
 - name: github.com/davecgh/go-spew
   version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
@@ -31,7 +31,7 @@ imports:
   - proto
   - sortkeys
 - name: github.com/golang/glog
-  version: 44145f04b68cf362d9c4df2182967c2275eaefed
+  version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
 - name: github.com/golang/groupcache
   version: 02826c3e79038b59d737d3b1c0a1d937f71a4433
   subpackages:
