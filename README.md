@@ -6,9 +6,7 @@ This Reposirory and Code is #Unmaintained. You should not use it in production.
 
 ```bash
 # install dynamic hostpath provisioner
-kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/rbac.yaml
-kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/deployment.yaml
-kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/storageclass.yaml
+kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/mbentley_hostpath-provisioner.yaml
 
 # create a test-pvc and a pod writing to it
 kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/test-claim.yaml
