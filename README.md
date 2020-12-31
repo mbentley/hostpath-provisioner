@@ -8,6 +8,9 @@ This Reposirory and Code is #Unmaintained. You should not use it in production.
 # install dynamic hostpath provisioner
 kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/mbentley_hostpath-provisioner.yaml
 
+# if running the Universal Control Plane/Mirantis Kubernetes Engine; you need additional permissions
+kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/ucp-mke-rbac.yaml
+
 # create a test-pvc and a pod writing to it
 kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/test-claim.yaml
 kubectl create -f https://raw.githubusercontent.com/mbentley/hostpath-provisioner/master/manifests/test-pod.yaml
